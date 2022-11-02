@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ikenna.gstquiz">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_gst"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_gst"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GSTQuiz">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5558886176700454~6897375790"/>
+
+        <meta-data android:name="applovin.sdk.key"
+            android:value="6wIgRfswpdT0HEWIbGBue_DXS1lOD393VmMJ84Vnu3CUC2TBz8PRb7NhEK0bihTsbZgEeTOqLlG_5WvDxSssDN"/>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

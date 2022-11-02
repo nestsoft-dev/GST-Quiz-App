@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "681534226816",
+    "project_id": "my-gst-2c0a4",
+    "storage_bucket": "my-gst-2c0a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681534226816:android:3008ed93b0225df4770165",
+        "android_client_info": {
+          "package_name": "com.ikenna.gstquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681534226816-lm6c85ui91sfpc24htn03ntca17l17ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2W0SdBcIjVaoxohF3qcEfjvg_rVNL5wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681534226816-lm6c85ui91sfpc24htn03ntca17l17ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
